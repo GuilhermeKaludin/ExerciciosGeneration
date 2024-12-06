@@ -27,9 +27,9 @@ public class ExercicioQuatroSet {
 
 		if (setNumeros.contains(numeroProcurado)) {
 			System.out.println("O número " + numeroProcurado + " foi encontrado. ");
-		} else {
-			System.out.println("O número " + numeroProcurado + " não foi encontrado.");
+			return;
 		}
+		System.out.println("O número " + numeroProcurado + " não foi encontrado.");
 
 	}
 }
