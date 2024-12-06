@@ -10,7 +10,7 @@ public class ExercicioUmArray {
 
 		ArrayList<String> cores = new ArrayList<>();
 		Scanner leia = new Scanner(System.in);
-		
+
 		System.out.println("Digite 5 cores:");
 		for (int i = 0; i < 5; i++) {
 			System.out.print("Cor " + (i + 1) + ": ");
@@ -18,22 +18,18 @@ public class ExercicioUmArray {
 			cores.add(cor);
 		}
 
-		
 		System.out.println("\nListar todas as cores:");
 		for (String cor : cores) {
 			System.out.println(cor);
 		}
 
-		
 		Collections.sort(cores);
 
-		
 		System.out.println("\nOrdenar as cores:");
 		for (String cor : cores) {
 			System.out.println(cor);
 		}
 
-		
 	}
 
 }
